@@ -127,5 +127,5 @@ solution<-dataset[inds, ]
 solution
 
 #Write csv file of the optimal lineup
-write.table(solution1, "mydata.txt", sep="\t")
+write.table(solution, "mydata.txt", sep="\t")
 
